@@ -1,0 +1,64 @@
+﻿
+    <div class="container">
+        @Html.Partial("_Menu")
+
+
+      <!-- Jumbotron -->
+      <div class="minitron hero-unit">
+        <h1>Online Gymnastics Software</h1>
+        <p class="lead">Free Online Gymnastics Software for your small business.  Do you ask what "online booking system to use for my gymnasium"? </p>
+          <br />
+        Choosing a system for your gym can be one of the hardest decisions to make.  We've spent some time evaluting all the options for you and hope this
+          information is useful!
+      </div>
+
+      <hr>
+
+      <!-- Example row of columns -->
+      <div class="row-fluid">
+        <div class="span4">
+          <h2>Key Features</h2>
+          <p>What are the main features you need in gymastics software?  What's important?</p>
+        </div>
+        <div class="span4">
+          <h2>Reviews</h2>
+          <p>See our short reviews of the the best gymnastic software available</p>
+       </div>
+        <div class="span4">
+          <h2>Free Pricing</h2>
+          <p>Free online gymnastics software?  Who wouldn't want that!  Well it may not be such a good idea to pick free software</p>
+        </div>
+      </div>
+        <div class="row-fluid">
+        <div class="span4">
+          <p><a class="btn btn-large btn-success" href="/bestgymnasticssoftware/features">View features &raquo;</a></p>
+        </div>
+        <div class="span4">
+          <p><a class="btn btn-large btn-success" href="/bestgymnasticssoftware/reviews">View reviews &raquo;</a></p>
+       </div>
+        <div class="span4">
+          <p><a class="btn btn-large btn-success" href="/bestgymnasticssoftware/pricing">Learn more &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+@Html.Partial("_Footer");
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $('.nav li').removeClass('active');
+        $('#gym').addClass('active');
+    });
+
+</script>
+

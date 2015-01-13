@@ -1,0 +1,59 @@
+﻿
+    <div class="container">
+        @Html.Partial("_Menu")
+      <!-- Jumbotron -->
+      <div class="minitron">
+        <h1>Dance Studio Software Features</h1>
+        <p class="lead">Here is a rundown of the most important features in dance studio software</p>
+       <ul>
+            <h4>Accounts</h4>
+        <li>Setup accounts for all of your customers including address, payment information, notes</li>
+           <li>Allow easy downloading of your customers data such as name, phone, purchase history, etc to other systems like Excel</li>
+           <br />
+           <h4>Payment</h4>
+        <li>Accept Credit Cards, enable upfront deposits</li>
+           <li>Does not require a seperate credit card processor. The system should send you a check in the mail or via ACH</li>
+           <br />
+           <h4>Classes</h4>
+            <li>Description of classes, pictures of the classes, capacity, location</li>
+           <li>Ability to see class roster, realtime live schedules</li>
+           <br />
+           <h4>Pricing</h4>
+        <li>Reoccuring membership pricing, merchant defined pricing levels for a class, , promotion codes</li>
+           <br />
+           
+            
+             <h4>Scheduling & Calendar</h4>
+            <li>Easily use a built calendar to see open availablity and block off times as unavailable</li>
+           <li>Display your calendar live on your website for customers to see upcoming classes and activities</li>
+
+              <br />
+              <h4>Website Integration</h4>
+            <li>Allow schedules and activity descriptions to be embedded live on your existing website</li>
+               <li>Realtime booking and checkout on your website for classes, activities and memberships</li>
+        </ul>
+           <br />
+             <p class="lead">What's the best dance studio software? Check out our reviews</p>
+           <a class="btn btn-large btn-success" href="/bestdancestudiosoftware/reviews">Dance Studio Software Reviews</a>
+      </div>
+    
+<hr />
+@Html.Partial("_Footer");
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $('.nav li').removeClass('active');
+        $('#dance').addClass('active');
+    });
+
+</script>
+

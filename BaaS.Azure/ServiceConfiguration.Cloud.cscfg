@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="BaaS.Azure" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="3" osVersion="*" schemaVersion="2013-10.2.2">
+  <Role name="BaaS">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=pfstaging;AccountKey=wvmY/sp4U973AJuG3zy5ixH3mbzajMWDIgzZQwwyd+4zjsNYYL+KcIVUIsGvCC5PeWV1TD7b1AjIU77h6ZoIbg==" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="placefull" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCECWJIhmVJrq1TzshkiUi1fkwDQYJKoZIhvcNAQEBBQAEggEAl8Kib1cX07pAaOS/4Iq6HjLDOmaQHRJNVXeMbH5mSyZpYn2NM3wL0qD54+8lkVzLH6+iJNWw3LDdPBUTQqEDq7B+jezbduPtWsqsRhFdmLpjG+mLi99hHzwrqGlT64UkOO24eBS1UxwH1SFJZAsFr89XwHGxoR2tnd2I9YYRyhbQbb/nCA8cwNZed+ctaTCYAgafq1CSx5On5YteU8oBXrZWjVQiIMKTdh0eP6kPLSYV7pInxiUexOjqaYrZcmJUyYRFuJV8wEoTrOLNi8+DrMz5AIaseVM0sOma3JyOEPCZ1L4BOKmsGBik2c2J6MUh5OXSasntVAbpXFcRXPEKWDAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECNprn4Z4StvsgBBNZveh319CFvqqrK7Ph07P" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2014-08-09T23:59:59.0000000-07:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="A9B15E23A6A9E5F7D2F55DADD8A1E01BBB1CB38D" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

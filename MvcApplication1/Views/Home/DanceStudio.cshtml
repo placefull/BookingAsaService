@@ -1,0 +1,64 @@
+﻿
+    <div class="container">
+        @Html.Partial("_Menu")
+
+
+      <!-- Jumbotron -->
+      <div class="minitron hero-unit">
+        <h1>Online Dance Studio Software</h1>
+        <p class="lead">Free Online Dance Studio software for your small business.  Do you ask what "online booking system to use for my studio"? </p>
+          <br />
+        Choosing a system for your studio can be a hard decision to make.  We've evaluated a number of options for you and think this
+          information will be useful!
+      </div>
+
+      <hr>
+
+      <!-- Example row of columns -->
+      <div class="row-fluid">
+        <div class="span4">
+          <h2>Key Features</h2>
+          <p>What are the main features you need in dance studio software?  What's important?</p>
+        </div>
+        <div class="span4">
+          <h2>Reviews</h2>
+          <p>See our short reviews of the the best dance studio software available</p>
+       </div>
+        <div class="span4">
+          <h2>Free Pricing</h2>
+          <p>Free online dance studio software?  Who wouldn't want that!  Well it may not great to pick free software</p>
+        </div>
+      </div>
+        <div class="row-fluid">
+        <div class="span4">
+          <p><a class="btn btn-large btn-success" href="/bestdancestudiosoftware/features">View features &raquo;</a></p>
+        </div>
+        <div class="span4">
+          <p><a class="btn btn-large btn-success" href="/bestdancestudiosoftware/reviews">View reviews &raquo;</a></p>
+       </div>
+        <div class="span4">
+          <p><a class="btn btn-large btn-success" href="/bestdancestudiosoftware/pricing">Learn more &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+@Html.Partial("_Footer");
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $('.nav li').removeClass('active');
+        $('#dance').addClass('active');
+    });
+
+</script>
+
